@@ -1,0 +1,22 @@
+plugins {
+    id 'war'
+}
+
+war {
+    archiveName 'cytric.war'
+}
+
+ext.moduleName = 'ibetms_project'
+
+group 'net.ifao'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+    testCompile 'junit:junit:4.12'
+}

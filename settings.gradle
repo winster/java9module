@@ -1,0 +1,4 @@
+rootProject.name = 'cytric-legacy'
+
+include 'ibetms_project'
+include 'api_project'
