@@ -6,6 +6,7 @@
 *.ipr
 .gradle
 
+build/
 api_project/build/
 ibetms_project/build/
 logs/

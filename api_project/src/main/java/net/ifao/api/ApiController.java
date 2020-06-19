@@ -10,7 +10,7 @@ public class ApiController {
     @GetMapping("/user")
     User user() {
         User user = new User();
-        user.setName("winster");
+        user.setFirstName("winster");
         return user;
     }
 }
